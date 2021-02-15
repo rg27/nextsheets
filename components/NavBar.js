@@ -5,11 +5,11 @@ const NavBar = () => {
     return ( 
         <nav>
             <div className="logo">
-                <Image src="/rm1.jpg" width={137} height={147}/>
+            <Link href="/"><a>NextSheetsAPI</a></Link>
             </div>
-            <Link href="/"><a>Home</a></Link>
-            <Link href="/about"><a>About</a></Link>
-            <Link href="/ninjas"><a>Blogs</a></Link>
+            <Link href="/form"><a>Form</a></Link>
+            <Link href="/about"><a>Table</a></Link>
+            {/* <Link href="/ninjas"><a>Blogs</a></Link> */}
         </nav>
      );
 }

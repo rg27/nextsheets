@@ -1,7 +1,7 @@
 const Footer = () => {
     return ( 
         <footer>
-            Copyright 2021 Rey Mar
+            Created with 💕 by Rey Mar
         </footer>
      );
 }
