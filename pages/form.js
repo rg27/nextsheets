@@ -15,7 +15,7 @@ export default function Form() {
     const { name, email, age } = formData
     try {
       const response = await fetch(
-        "https://v1.nocodeapi.com/thebro/google_sheets/TylXJHhzDykyXfXk?tabId=Sheet1",
+        "https://v1.nocodeapi.com/rey/google_sheets/TXWNLFFWIXBqKrgc?tabId=Sheet1",
         {
           method: "post",
           body: JSON.stringify([[name, email, age]]),

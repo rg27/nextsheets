@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../../styles/Ninjas.module.css'
 import Link from 'next/link'
 export const getStaticProps = async () => {
-    const res = await fetch('https://v1.nocodeapi.com/thebro/google_sheets/TylXJHhzDykyXfXk?tabId=Sheet1');
+    const res = await fetch('https://v1.nocodeapi.com/rey/google_sheets/TXWNLFFWIXBqKrgc?tabId=Sheet1');
     const results = await res.json();
 
     return{
